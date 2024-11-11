@@ -23,7 +23,7 @@ public class SimpleZooKeeperClient {
 
             // Close the ZooKeeper connection
             zooKeeper.close();
-            System.out.println("Connection closed.");
+            System.out.println("Connection closed. ");
         } catch (Exception e) {
             e.printStackTrace();
         }
